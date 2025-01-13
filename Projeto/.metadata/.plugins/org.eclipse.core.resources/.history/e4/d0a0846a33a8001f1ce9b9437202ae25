@@ -1,0 +1,12 @@
+package com.github.anaraquel00.modelo;
+
+import com.github.anaraquel00.Pessoa_Fisica;
+
+public class Principal {
+	public static void main(String[] args) {
+	Pessoa_Fisica pf = new Pessoa_Fisica();
+	
+	
+	
+	}
+	}

@@ -1,0 +1,14 @@
+
+public class carro {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner scan = new Scanner(System.in); 
+				
+System.out.println("Entre com o seu nome: ");
+String nome = scan.nextLine();
+System.out.printf("\nolá, %s!,Bem vindo ao nosso programa",nome);
+
+	}
+
+}

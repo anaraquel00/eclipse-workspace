@@ -1,0 +1,14 @@
+package com.github.anaraquel00;
+
+public class Pessoa_Fisica {
+
+	String nome;
+	String sobrenome;
+	int cpf;
+	int telefone;
+	String email;
+	
+		
+	}
+
+

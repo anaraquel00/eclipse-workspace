@@ -1,0 +1,19 @@
+package Comandos_Break_Continue;
+
+public class Comando_Impar_Continue {
+
+	public static void main(String[] args) {
+		
+     int n;
+     
+     for(n = 1; n < 10; n++) {
+    	 
+     if (n % 2 == 0) {   
+    	 continue; 
+     }
+System.out.println(n+ " E impar!");
+	}
+
+	}
+}
+

@@ -1,0 +1,52 @@
+import java.util.Scanner;
+public class Detran {
+
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		System.out.println("Qual é a placa do carro (4digitos)?");
+		int placa = scanner.nextInt();
+		int ultimoDigito = placa % 10;
+		String mesVistoria;
+		
+		switch (ultimoDigito) {
+			case 0:
+				mesVistoria = "Janeiro do proximo ano";
+			break;
+			case 1:
+				mesVistoria = "Fevereiro do proximo ano";
+			break;
+			case 2:
+				mesVistoria = "Março do proximo ano";
+			break;
+			case 3:
+				mesVistoria = "Abril do proximo ano";
+			break;
+			case 4:
+				mesVistoria = "Maio do proximo ano";
+			break;
+			case 5:
+				mesVistoria = "Junho do proximo ano";
+			break;
+			case 6:
+				mesVistoria = "Setembro do proximo ano";
+			break;
+			case 7:
+				mesVistoria = "Outubro do proximo ano";
+			break;
+			case 8:
+				mesVistoria = "Novembro do proximo ano";
+			break;
+			case 9:
+				mesVistoria = "Dezembro do proximo ano";
+			break;
+			default:
+				mesVistoria = "mês invalido";
+			break;
+		}
+		System.out.println("O veiculo tem que fazer a vistoria em: " + mesVistoria);
+		
+		scanner.close();
+
+	}
+
+}

@@ -1,0 +1,17 @@
+package com.github.anaraquel00.modelo;
+
+import com.github.anaraquel00.Banco_Imobiliario;
+
+public class Principal {
+	public static void main(String[] args) {
+		Banco_Imobiliario bk = new Banco_Imobiliario();	
+		
+		bk.agencia = 178609-2;
+		bk.conta = 2856-5;
+		bk.cartao = "Visa";
+		bk.bandeira = "Mastercard";
+		System.out.println("O banco imobiliario abriu uma agência n° "+bk.agencia+" de conta n° "+bk.conta+ ".\nAceitamos os cartoes "+bk.cartao+ " e "+bk.bandeira);
+		
+	}
+}
+	

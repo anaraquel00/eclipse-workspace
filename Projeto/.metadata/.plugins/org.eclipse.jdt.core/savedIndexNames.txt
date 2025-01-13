@@ -1,0 +1,5 @@
+INDEX VERSION 1.134+/home/ana/eclipse-workspace/Projeto/.metadata/.plugins/org.eclipse.jdt.core
+923086728.index
+3973275761.index
+901567496.index
+1865797976.index

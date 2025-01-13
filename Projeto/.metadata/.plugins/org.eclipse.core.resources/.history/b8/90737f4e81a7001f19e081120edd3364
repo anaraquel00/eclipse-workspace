@@ -1,0 +1,23 @@
+package com.github.anaraquel00.modelo.carro;
+
+import com.github.anaraquel00.modelo.Carro;
+
+public class Principal {
+
+	public static void main(String[] args) {
+	Carro carro = new Carro ();	
+    
+	carro.marca = "Jeep";
+	carro.ano = 2024;
+	carro.modelo = "Renegate";
+	carro.motor = 2.0;
+	carro.preco = 200.000;
+	
+	
+	System.out.println("O carro " +carro.marca+ " do ano de \n"+ carro.ano + " é do modelo "+carro.modelo + "\nPossue um motor "+carro.motor+ " e custa R$ %.2f"+carro.preco);
+	
+	
+	
+	}
+
+}

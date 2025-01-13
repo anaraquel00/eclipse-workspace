@@ -1,0 +1,5 @@
+package Testes;
+
+int valor1=10;int valor2=20;int soma=valor1+valor2;int subt=valor1+valor2;int mult=valor1+valor2;int div=valor1+valor2;
+
+System.out.println("somar:"+soma);

@@ -1,0 +1,14 @@
+package com.github.anaraquel00;
+
+public class Conta_Bancaria {
+	public String nome;
+	public String numeroDaConta;
+	public String agencia;
+	public int saldo;
+	
+	
+	
+	
+	
+	
+}

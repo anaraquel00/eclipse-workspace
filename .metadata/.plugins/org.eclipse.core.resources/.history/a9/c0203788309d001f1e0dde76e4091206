@@ -1,0 +1,7 @@
+
+public abstract class ManageMaison {
+
+}
+
+
+private verifierMur(int nbParois, String couleur)

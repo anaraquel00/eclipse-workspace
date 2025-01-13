@@ -1,0 +1,14 @@
+package com.github.anaraquel00;
+
+public class Banco_Imobiliario {
+	public int agencia;
+	public int conta;
+	public int corrente;
+	public String cartao;
+	public String bandeira;
+	
+	
+	
+	
+	
+}

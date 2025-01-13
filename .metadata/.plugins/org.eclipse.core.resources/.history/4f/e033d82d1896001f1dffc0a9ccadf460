@@ -1,0 +1,17 @@
+import java.util.Scanner; 
+
+public class nome {
+
+	public static void main(String[] args) {
+		//Cria um objeto Scanner para ler a entrada do usuário
+	Scanner scanner = new Scanner(System.in);  	
+
+	    // Solicita o nome do usuário
+	System.out.print("Entre com o seu nome: ");
+	Scanner scan = null;
+	String nome = scan.nextLine(); 
+	System.out.print("\nolá,%s! Bem vindo ao nosso programa, nome");
+	
+	}
+
+}
